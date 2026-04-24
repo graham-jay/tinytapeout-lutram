@@ -123,7 +123,7 @@ module lut (in, config, out);
     mux mux_0_0 (mux_1_0_out, mux_1_1_out, in[0], out);
 endmodule
 
-module lutram (clk, rst, config_done, we, data, ccff_head, in, ccff_tail, out);
+module lutram4 (clk, rst, config_done, we, data, ccff_head, in, ccff_tail, out);
     input clk;
     input rst; 
     input config_done;
